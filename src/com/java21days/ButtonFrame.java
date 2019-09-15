@@ -13,6 +13,7 @@ public class ButtonFrame extends JFrame {
         setSize(340, 170);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // panel add buttons
+        // 将组件加入面板和其他容器之前，必须先设置好组件的所有属性;
         JPanel panel = new JPanel();
         panel.add(load);
         panel.add(save);
