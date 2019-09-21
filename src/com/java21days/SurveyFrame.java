@@ -3,7 +3,7 @@ package com.java21days;
 import java.awt.*;
 import javax.swing.*;
 
-public class SurveyFrame extends JFrame{
+public class SurveyFrame extends JFrame {
     public SurveyFrame() {
         super("Survey");
         setSize(290, 180);
